@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Employee123
+class Employee
 {
     private int eid;
     private String name;
@@ -25,7 +25,7 @@ class Employee123
 }
 public class EmployeeDetails {
     public static void main(String[] args) {
-        Employee123 e1=new Employee123();
+        Employee e1=new Employee();
         e1.inputDetails();
         e1.showDetails();
     }
